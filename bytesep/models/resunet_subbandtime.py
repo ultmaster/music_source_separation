@@ -61,7 +61,7 @@ class ConvBlockRes(nn.Module):
 
         self.init_weights()
 
-    def init_weights(self) -> NoReturn:
+    def init_weights(self):
         r"""Initialize weights."""
         init_bn(self.bn1)
         init_bn(self.bn2)

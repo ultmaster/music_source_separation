@@ -122,7 +122,7 @@ def read_yaml(config_yaml: str) -> Dict:
     return configs
 
 
-def check_configs_gramma(configs: Dict) -> NoReturn:
+def check_configs_gramma(configs: Dict) -> None:
     r"""Check if the gramma of the config dictionary for training is legal."""
 
     paired_input_target_data = configs['train']['paired_input_target_data']
